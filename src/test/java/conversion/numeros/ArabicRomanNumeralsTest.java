@@ -44,5 +44,9 @@ public class ArabicRomanNumeralsTest {
     public void testConvertFive() {
         assertEquals("V", ArabicRomanNumerals.convert(5));
     }
+    @Test
+    public void testConvertFour() {
+        assertEquals("IV", ArabicRomanNumerals.convert(4));
+    }
 
 }

@@ -11,6 +11,9 @@ public class ArabicRomanNumerals {
             result += "V";
             i -= 5;
         }
+        if (i == 4) {
+            return result + "IV";
+        }
         return result + "I".repeat(i);
     }
 }
