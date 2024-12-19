@@ -60,5 +60,9 @@ public class ArabicRomanNumeralsTest {
     public void testConvertFortyFive() {
         assertEquals("XLV", ArabicRomanNumerals.convert(45));
     }
+    @Test
+    public void testConvertFortyNine() {
+        assertEquals("XLIX", ArabicRomanNumerals.convert(49));
+    }
 
 }
