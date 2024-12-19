@@ -20,5 +20,9 @@ public class ArabicRomanNumeralsTest {
     public void testConvertTen() {
         assertEquals("X", ArabicRomanNumerals.convert(10));
     }
+    @Test
+    public void testConvertTwenty() {
+        assertEquals("XX", ArabicRomanNumerals.convert(20));
+    }
 
 }
