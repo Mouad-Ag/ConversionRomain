@@ -8,5 +8,8 @@ public class ArabicRomanNumeralsTest {
     public void testConvertOne() {
         assertEquals("I", ArabicRomanNumerals.convert(1));
     }
-
+    @Test
+    public void testConvertTwo() {
+        assertEquals("II", ArabicRomanNumerals.convert(2));
+    }
 }
