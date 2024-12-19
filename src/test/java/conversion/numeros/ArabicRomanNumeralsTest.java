@@ -12,4 +12,8 @@ public class ArabicRomanNumeralsTest {
     public void testConvertTwo() {
         assertEquals("II", ArabicRomanNumerals.convert(2));
     }
+    @Test
+    public void testConvertThree() {
+        assertEquals("III", ArabicRomanNumerals.convert(3));
+    }
 }
