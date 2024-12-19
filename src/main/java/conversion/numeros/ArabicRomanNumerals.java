@@ -3,6 +3,10 @@ package conversion.numeros;
 public class ArabicRomanNumerals {
     public static String convert(int i) {
         String result = "";
+        if (i >= 40) {
+            result += "XL";
+            i -= 40;
+        }
         if (i >= 10) {
             result += "X".repeat(i / 10);
             i %= 10;
