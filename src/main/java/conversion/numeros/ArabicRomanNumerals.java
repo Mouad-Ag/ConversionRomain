@@ -7,6 +7,9 @@ public class ArabicRomanNumerals {
             result += "X".repeat(i / 10);
             i %= 10;
         }
+        if (i == 9) {
+            return result + "IX";
+        }
         if (i >= 5) {
             result += "V";
             i -= 5;
