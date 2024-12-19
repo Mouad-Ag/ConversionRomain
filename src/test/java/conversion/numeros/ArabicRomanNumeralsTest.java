@@ -36,5 +36,9 @@ public class ArabicRomanNumeralsTest {
     public void testConvertTwelve() {
         assertEquals("XII", ArabicRomanNumerals.convert(12));
     }
+    @Test
+    public void testConvertThirteen() {
+        assertEquals("XIII", ArabicRomanNumerals.convert(13));
+    }
 
 }
